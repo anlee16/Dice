@@ -9,7 +9,7 @@ void setup()
 }
 void draw()
 {
-  background(#ADA371);
+ background(255,255,255);
   for (int x = 0; x <= 500; x+= 50) 
     for (int y = 0; y <= 400; y+= 50) {
       Die bob =new Die(x, y);
