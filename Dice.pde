@@ -8,13 +8,15 @@ void setup()
 }
 void draw()
 {
- background(255,255,255);
-  for (int x = 0; x <= 500; x+= 50) 
+  //ellipse(
+  background(255,255,255);
+  for (int x = 0; x <= 500; x+= 50) {
     for (int y = 0; y <= 400; y+= 50) {
       Die bob =new Die(x, y);
       bob.roll();
       bob.show();
     }
+   }
   fill(0);
   text("Number Of Dots: " + counter, 250, 475);
 }
