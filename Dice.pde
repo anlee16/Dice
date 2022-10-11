@@ -1,5 +1,4 @@
 int counter;
-Die bob;
 void setup()
 {
   size(500, 500);
