@@ -5,7 +5,6 @@ void setup()
   size(500, 500);
   background(#ADA371);
   textAlign(CENTER, CENTER);
-  Die bob;
   noLoop();
 }
 void draw()
