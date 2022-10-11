@@ -3,7 +3,7 @@ Die bob;
 void setup()
 {
   size(500, 500);
-  background(#ADA371);
+  background(255,255,255);
   textAlign(CENTER, CENTER);
   noLoop();
 }
