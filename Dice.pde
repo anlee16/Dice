@@ -62,7 +62,7 @@ void draw()
     }
     void show()
     {
-      fill(255);
+      fillfill((int)(Math.random()*240), (int)(Math.random()*200), (int)(Math.random()*200));
       rect(myX,myY,50,50);
       fill(0);
       if (dots == 1) {
